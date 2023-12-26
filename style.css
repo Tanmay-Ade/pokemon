@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card {
+    height: 350px;
+    width: 250px;
+    background-color: #fff;  
+    border-radius: 10px;
+}
+
+#card img{
+    height: 200px;
+    width: 250px;
+    padding: 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+}
+
+#card h3 {
+    text-align: center;
+    font-family: "roboto";
+    margin-bottom: 10px;
+}
+
+#card h4 {
+    text-align: center;
+    font-family: "roboto";
+    margin-bottom: 10px;
+    color: royalblue;
+}
+
+
+#card button {
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#card .btn {
+    background-color: green;
+    color: #fff;
+    font-weight: 600;
+    margin: 25px 80px;
+}
